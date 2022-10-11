@@ -24,6 +24,7 @@
   border: 1px solid #cfcccc;
   height: 50px;
   border-radius: 10px;
+  margin: 2rem;
 }
 
 .space {
@@ -31,6 +32,8 @@
 }
 
 .progress {
+  margin-top: 4.2rem;
+  margin-bottom: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
