@@ -3,3 +3,23 @@
     align-items: center;
     justify-content: center;
 }
+
+.live-scores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    border: 1px solid rgb(207, 204, 204);
+    height: 50px;
+    border-radius: 10px;
+}
+
+.space{
+    width: 50px;
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

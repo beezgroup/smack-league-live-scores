@@ -10,24 +10,35 @@
           justify-content: center;
 }
 
-.brac {
-  color: #2e9e2e;
-}
-
-.smile {
-  color: orange;
-}
-
-.soon {
+.live-scores {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #878a87;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: medium;
+  border: 1px solid #cfcccc;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.space {
+  width: 50px;
+}
+
+.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
