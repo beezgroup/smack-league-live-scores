@@ -10,6 +10,18 @@
           justify-content: center;
 }
 
+.match-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .live-scores {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,5 +46,19 @@
 .scoreline {
   background-color: #2960c5;
   height: 1px;
+}
+
+.bottom h3 {
+  padding: 0.5rem;
+  margin: 0 auto;
+  background-color: #0e0e0d;
+  color: #f3c807;
+  border: 1px solid #f3c807;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.bottom h3 span {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
