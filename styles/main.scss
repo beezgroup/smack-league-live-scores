@@ -43,3 +43,15 @@
 .bottom h3 span{
     color: #fff;
 }
+
+.survey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    border: 1px solid #0e0e0d;
+    border-radius: 10px;
+    background-color: rgb(243, 200, 7);
+    color: #0e0e0d;
+    padding: 1rem;
+}

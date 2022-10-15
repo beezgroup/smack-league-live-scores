@@ -61,4 +61,22 @@
 .bottom h3 span {
   color: #fff;
 }
+
+.survey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+  border: 1px solid #0e0e0d;
+  border-radius: 10px;
+  background-color: #f3c807;
+  color: #0e0e0d;
+  padding: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
