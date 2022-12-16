@@ -43,12 +43,11 @@
     <div class="col-sm-8 text-left">
       
       <!-- Display the countdown timer in an element -->
-<h3>Season 6 will start in: </h3>
-<p id="timer"></p>
+<p id="timer">Season 6 will start in:</p>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 1, 2023 00:00:00").getTime();
+var countDownDate = new Date("March 1, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -66,7 +65,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
   }
 }, 1000);
